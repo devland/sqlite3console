@@ -41,7 +41,7 @@ module.exports = (args) => {
           shell.stdin.write(query);
         });
       }
-      sql.end = (callback) => {
+      sql.end = () => {
         return new Promise((resolve, reject) => {
           queryResolve = resolve;
           queryReject = reject;

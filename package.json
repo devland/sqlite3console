@@ -1,0 +1,23 @@
+{
+  "name": "sqlite3console",
+  "version": "1.0.1",
+  "description": "A simple, no dependency, promise based nodejs wrapper for the sqlite3 cli.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd sample; node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devland/sqlite3console.git"
+  },
+  "keywords": [
+    "sqlite3",
+    "cli"
+  ],
+  "author": "adevland@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/devland/sqlite3console/issues"
+  },
+  "homepage": "https://github.com/devland/sqlite3console#readme"
+}
