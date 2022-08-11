@@ -1,4 +1,4 @@
-const shell = require('../sqlite3console.js');
+const shell = require('../index.js');
 let sql;
 shell(['db.sqlite3']) // sqlite3 db to use; other sqlite3 cli arguments can be provided as array items
   .then((result) => {
